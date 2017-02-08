@@ -1,0 +1,116 @@
+
+
+body {
+  background-color: white;
+  color: black;
+}
+
+#mainheader {
+  margin: 0 auto;
+  font-size: 90px;
+  font-weight: 400;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 400%;
+}
+
+#navigation ul li{
+  position: sticky fixed;
+}
+
+ul li {
+  list-style: none;
+  font-size: 200%;
+}
+.nav {
+  padding-top: 20px;
+  position: fixed;
+}
+.nav li {
+  background-color: grey;
+  border: 2px solid white;
+  color: white;
+  height: 40px;
+  width: 200px;
+  align-content: center;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.nav li:hover {
+  background-color: black;
+}
+
+img.wrap {
+  width: 200px;
+  height: 200px;
+  float: right;
+  align-items: baseline;
+  margin-right: 20px;
+  border: 3px solid red;
+  clear: both;
+  padding-right: none;
+}
+
+.content {
+  border: 5px solid black;
+}
+
+#maincontent div {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.row p {
+  line-height: 40px;
+  padding-left: 50px;
+}
+
+#maincontent div:nth-child(even) {
+  background-color: grey;
+  color: white;
+}
+#maincontent div:nth-child(even) img{
+float: left;
+}
+
+#maincontent div:nth-child(even):hover {
+  background-color: black;
+  color: white;
+}
+#maincontent div:nth-child(odd):hover {
+  background-color: orange;
+  color: white;
+}
+
+.inputBox {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  padding: 20px;
+  line-height: 150%;
+}
+
+.footerbar {
+  display: inline-block;
+  margin: 0 auto;
+  width: 400px;
+  height: 60px;
+  border: 3px solid black;
+  background: grey;
+  color: white;
+}
+
+.footbar a:link {
+ text-decoration: none;
+}
+
+footer {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
